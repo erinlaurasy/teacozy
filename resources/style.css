@@ -1,0 +1,135 @@
+/* For the entire page */
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+/* The header */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+
+nav span {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+/* The Mission Statement Part */
+
+.shell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+}
+
+.mission {
+  position: relative;
+  top: 70px;
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-image: url("img-mission-background.jpg");
+  margin: auto;
+}
+
+.missionstatement {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  text-align: center;
+}
+
+/* Featured Teas */
+
+.featured {
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  margin: auto;
+}
+
+.featuredtea {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 25px 0 25px;
+}
+
+.featuredtea h4 {
+  margin-top: 10px;
+}
+
+.featuredtea img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url("img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  top: 70px;
+  margin: auto;
+}
+
+.locations h2 {
+  padding-top: 90px;
+  margin-bottom: 15px;
+}
+
+.address {
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px 0 20px;
+  width: 300px;
+}
+
+/* Contact info and footer */
+
+.contactinfo {
+  position: relative;
+  top: 70px;
+  height: 200px;
+}
+
+footer {
+  position: relative;
+  top: 70px;
+  text-align: left;
+}
+
+footer h5 {
+  margin-left: 20px;
+}
